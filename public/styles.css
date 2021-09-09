@@ -1,0 +1,11 @@
+body {background-color: rgb(59, 8, 8);}
+h2   {color: white;}
+p    {color: rgb(247, 199, 199);}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+#button, #number, #email, #otp, #confirm, #msg{
+  width: 300px;
+  font-size: 15px;
+}

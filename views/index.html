@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+    <title>OTP Generator</title>
+
+    <!-- <style>
+        
+    </style> -->
+
+</head>
+
+<body>
+    <div>
+
+        <body class="container">
+            <h2>Sending OTP SMS in Nodejs using Vonage API</h2>
+            <!-- <input type="email" id="email" name="email" placeholder="Enter email address"><br> -->
+            <input type="tel" name="number" id="number" placeholder="Enter phone number"><br>
+            <input type="text" name="msg" id="msg" placeholder="Enter message"><br>
+            <!-- <input type="text" name="msg" id="msg" placeholder="Enter Text Message"><br> -->
+            <input type="button" id="button" value="Submit" class="button button-primary"><br>
+            <input type="number" name="otp" id="otp" placeholder="Enter OTP"><br>
+            <input type="button" id="confirm" value="Confirm" class="button button-primary">
+
+            <p class="response"></p>
+
+        </body>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
